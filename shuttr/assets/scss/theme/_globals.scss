@@ -1,0 +1,319 @@
+.product-search input:focus-visible {
+  outline: none !important;
+  -webkit-box-shadow: 2px 4px 10px 0 rgb(0 34 51 / 5%), 2px 4px 10px 0 rgb(0 34 51 / 5%);
+  box-shadow: 2px 4px 10px 0 rgb(0 34 51 / 5%), 2px 4px 10px 0 rgb(0 34 51 / 5%);
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #ff2c69;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+
+#cartModal {
+  z-index: 9999999;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#cartModal .cartTable th,
+#cartModal .cartTable td {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.modal-header {
+  border-bottom: 0;
+}
+
+.modal-footer {
+  border-top: 0;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+/*** 3.1 - Button ***/
+.btn-custom {
+  border: 2px solid #ff2c69;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 32px;
+  text-transform: uppercase;
+}
+
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.btn-arrow::after {
+  content: "\f105";
+  color: #fff;
+  margin-left: 5px;
+  font-family: 'Font Awesome 5 free';
+  font-weight: 700;
+}
+
+.btn-custom:hover {
+  background: #ff2c69;
+  color: #fff;
+}
+
+.btn-fill {
+  background: #ff2c69;
+  color: #fff;
+}
+
+.btn-fill:hover {
+  background: transparent;
+  color: #fff;
+}
+
+.btn-gray {
+  border-color: #222;
+}
+
+.btn-gray:hover {
+  color: #fff;
+  background: #222;
+}
+
+.btn-custom-white {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.btn-custom-white:hover {
+  color: #222;
+  border: 2px solid #fff;
+  background: #fff;
+}
+
+.btn-cart {
+  border-radius: 0;
+  color: #222222;
+  background: #d2d2d2;
+  border: 2px solid #4d4d4d;
+}
+
+.btn-cart:hover {
+  color: #222222;
+  background: #d2d2d2;
+}
+
+.error-page-wrapper .btn-arrow:hover.btn-arrow::after {
+  color: #ff2c69 !important;
+}
+
+
+/*** 3.2 - Slick_Slider ***/
+/* Slick Slider Start */
+.slick-next,
+.slick-prev {
+  z-index: 111;
+  background: #fff;
+  color: red;
+}
+
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+  color: gray;
+}
+
+.slick-next {
+  right: 30px;
+}
+
+.product-wrapper .slick-next {
+  right: -16px;
+}
+
+.product-wrapper .slick-prev {
+  left: -16px;
+}
+
+.slick-prev {
+  left: 30px;
+}
+
+.product-wrapper .slick-prev,
+.product-wrapper .slick-next {
+  top: 42%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {
+  opacity: 1;
+}
+
+.slick-prev,
+.slick-next {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 30px;
+  font-weight: 900;
+  opacity: 1;
+  line-height: 0.3;
+  color: #ff2c69;
+  font-family: 'Font Awesome 5 free';
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  color: #ff2c69;
+  outline: none;
+  background: #fff;
+}
+
+/* Slick Slider End */
+
+
+
+/*** 3.3 - Scroll-Top ***/
+/* Scroll To Top Start */
+.material-scrolltop.reveal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #ff2c69 !important;
+}
+
+.material-scrolltop::before {
+  background: #ff2c69 !important;
+}
+
+.material-scrolltop.reveal:hover {
+  cursor: pointer;
+}
+
+.material-scrolltop.reveal i {
+  font-size: 40px;
+  color: #fff !important;
+}
+
+.material-scrolltop.reveal {
+  z-index: 999999;
+}
+
+/* Scroll To Top End */
+
+/*** 3.4 - Pagiantion ***/
+/* pagination Start */
+.pagination-section .page-item:first-child .page-link {
+  border: 0;
+}
+
+.pagination-section .page-link {
+  border: 0 !important;
+  color: #2b2c348a;
+  font-family: 'Jost';
+  font-size: 25px;
+  font-weight: 600;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.pagination-section .page-item:last-child .page-link {
+  color: #2B2C34;
+}
+
+.pagination-section .page-item:last-child .page-link:hover {
+  color: #ff2c69;
+}
+
+.pagination-section .page-link i {
+  font-size: 18px;
+  color: #2b2c348a;
+}
+
+.pagination-section .page-link:hover {
+  color: #ff2c69;
+  background: transparent;
+}
+
+.pagination-section .page-link:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.pagination-section .page-link.active {
+  color: #ff2c69;
+}
+
+/* pagination End */
+
+/*** 3.5 - Top-Banner ***/
+/* Banner Start */
+.top-banner {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.banner-title h2 {
+  color: #fff;
+  font-size: 40px;
+}
+
+.banner-title .breadcrumb {
+  background-color: transparent;
+  padding-left: 0;
+}
+
+.banner-title .breadcrumb-item a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.banner-title .breadcrumb-item.active {
+  font-size: 18px;
+  color: #fff;
+}
+
+.banner-title .breadcrumb-item+.breadcrumb-item::before {
+  color: #fff;
+}
+
+.section-padding {
+  padding: 120px 0px;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0px;
+}
+
+/* Banner End */
+
+/* Re Usable Component End*/
