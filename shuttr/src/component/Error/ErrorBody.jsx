@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 function ErrorBody() {
   return (
@@ -9,7 +11,7 @@ function ErrorBody() {
         <div className="col-md-12">
           <div className="error-img">
             <img src="assets/img/404.jpg" alt=""/>
-            <a className="btn btn-custom btn-fill btn-arrow" href="index.html">Back to Home</a>
+            <Link className="btn btn-custom btn-fill btn-arrow" to='/'>Back to Home</Link>
           </div>
         </div>
       </div>

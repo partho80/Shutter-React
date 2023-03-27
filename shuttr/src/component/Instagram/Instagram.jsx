@@ -9,7 +9,7 @@ function Instagram() {
         <h3 className="section-top-title">Instagram Post</h3>
       </div>
 
-      <div className="instagram-img-wrapper insta-slider">
+      <div className="instagram-img-wrapper ">
         <a href="assets/img/insta1.jpg" className="photo-click">
           <img src="assets/img/insta1.jpg" alt=""/>
         </a>
@@ -34,21 +34,21 @@ function Instagram() {
         <a href="iassets/mg/insta4.jpg" className="photo-click">
           <img src="assets/img/insta4.jpg" alt=""/>
         </a>
-        <a href="assets/img/insta1.jpg" className="photo-click">
+        {/* <a href="assets/img/insta1.jpg" className="photo-click">
           <img src="assets/img/insta1.jpg" alt=""/>
         </a>
         <a href="assets/img/insta2.jpg" className="photo-click">
           <img src="assets/img/insta2.jpg" alt=""/>
-        </a>
-        <a href="assets/img/insta3.jpg" className="photo-click">
+        </a> */}
+        {/* <a href="assets/img/insta3.jpg" className="photo-click">
           <img src="assets/img/insta3.jpg" alt=""/>
         </a>
         <a href="assets/img/insta4.jpg" className="photo-click">
           <img src="assets/img/insta4.jpg" alt=""/>
-        </a>
+        </a> */}
       </div>
     </div>
-  </section>/
+  </section>
     </div>
   )
 }

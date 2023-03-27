@@ -1594,9 +1594,9 @@ a.sp-thumbnail img {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: start;
+  /* -webkit-box-pack: start; */
   -ms-flex-pack: start;
-  justify-content: start;
+  justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
